@@ -11,7 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activities.CurrencyConverterActivity"></activity>
+        <activity android:name=".Activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.CurrencyConverterActivity" />
         <activity android:name=".Activities.CountryDetailsActivity" />
         <activity android:name=".Activities.SelectCountryForDetailsActivity" />
         <activity android:name=".Activities.MainActivitySelect">
@@ -23,11 +30,7 @@
         </activity>
         <activity android:name=".Activities.FlightListActivity" />
         <activity android:name=".Activities.FlightSelectActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

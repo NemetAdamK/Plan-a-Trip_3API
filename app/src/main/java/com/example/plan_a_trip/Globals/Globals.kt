@@ -16,4 +16,4 @@ var currencies = arrayOf( "JPY", "CNY", "SDG", "RON", "MKD", "MXN", "CAD",
     "SKK", "GTQ", "BRL", "EUR", "HUF", "IQD", "CRC", "PHP", "SVC", "PLN",
     "USD","THIS CURRENCY DOES NOT EXIST" )
 
-
+var username: String = ""
